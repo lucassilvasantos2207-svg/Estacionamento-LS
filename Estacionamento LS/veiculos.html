@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Veículos - Estacionamento LS</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+
+<body>
+
+
+<nav class="sidebar">
+
+
+    <div class="logo">
+
+        <i class="fa-solid fa-car"></i>
+
+        <h2>Estacionamento LS</h2>
+
+    </div>
+
+
+
+    <ul>
+
+
+        <li>
+
+            <a href="index.html">
+
+                <i class="fa-solid fa-house"></i> Home
+
+            </a>
+
+        </li>
+
+
+
+        <li>
+
+            <a href="entrada.html">
+
+                <i class="fa-solid fa-car"></i> Entrada
+
+            </a>
+
+        </li>
+
+
+
+        <li class="active">
+
+            <a href="veiculos.html">
+
+                <i class="fa-solid fa-list"></i> Veículos
+
+            </a>
+
+        </li>
+
+
+
+        <li>
+
+            <a href="saida.html">
+
+                <i class="fa-solid fa-right-from-bracket"></i> Saída
+
+            </a>
+
+        </li>
+
+
+
+        <li>
+
+            <a href="relatorios.html">
+
+                <i class="fa-solid fa-chart-line"></i> Relatórios
+
+            </a>
+
+        </li>
+
+
+
+    </ul>
+
+
+</nav>
+
+
+
+
+
+<main class="conteudo">
+
+
+
+<header class="topo">
+
+
+    <div>
+
+
+        <h1>Veículos Estacionados</h1>
+
+
+        <p>
+            Visualize todos os veículos atualmente estacionados.
+        </p>
+
+
+    </div>
+
+
+</header>
+
+
+
+
+
+<section class="pesquisa">
+
+
+<input 
+type="text"
+id="buscar"
+placeholder="Pesquisar pela placa...">
+
+
+</section>
+
+
+
+
+
+
+<section class="cards-info">
+
+
+<div class="info-card">
+
+
+<h3 id="totalCarros">0</h3>
+
+
+<p>Veículos Estacionados</p>
+
+
+</div>
+
+
+
+
+
+<div class="info-card">
+
+
+<h3>50</h3>
+
+
+<p>Vagas Totais</p>
+
+
+</div>
+
+
+
+
+
+<div class="info-card">
+
+
+<h3 id="vagasLivres">50</h3>
+
+
+<p>Vagas Livres</p>
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+<section class="tabela-card">
+
+
+
+<table>
+
+
+
+<thead>
+
+
+<tr>
+
+<th>Placa</th>
+
+<th>Modelo</th>
+
+<th>Marca</th>
+
+<th>Cor</th>
+
+<th>Tipo</th>
+
+<th>Vaga</th>
+
+<th>Entrada</th>
+
+<th>Status</th>
+
+<th>Ações</th>
+
+
+</tr>
+
+
+</thead>
+
+
+
+
+<tbody id="listaVeiculos">
+
+
+</tbody>
+
+
+
+</table>
+
+
+
+</section>
+
+
+
+
+</main>
+
+
+
+
+
+
+<script src="js/script.js"></script>
+
+
+</body>
+
+</html>
