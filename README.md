@@ -1,5 +1,5 @@
 <img width="1439" height="776" alt="estacionamento ls" src="https://github.com/user-attachments/assets/227e7a67-79ce-4272-a979-0ddcd7cbd9ab" />
-# 🚗 LS - Sistema de Estacionamento
+🚗 LS - Sistema de Estacionamento
 
 Projeto de um sistema de gerenciamento de estacionamento desenvolvido com HTML, CSS e JavaScript.
 
